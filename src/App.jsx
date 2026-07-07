@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
+import Founders from './components/Founders';
 import Highlights from './components/Highlights';
 import Menu from './components/Menu';
 import Reviews from './components/Reviews';
@@ -18,6 +19,9 @@ function App() {
       <main>
         {/* Hero Banner Section */}
         <Hero />
+
+        {/* Founders Section */}
+        <Founders />
 
         {/* Signature Dishes Menu Section */}
         <Menu />
